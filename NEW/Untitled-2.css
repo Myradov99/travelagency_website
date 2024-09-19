@@ -1,0 +1,1120 @@
+/* # - this is id should use very rare , excanhe use class */ 
+/* 
+*{  this takes all elements like all element in website 
+border: 1px solid; 
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+
+*{
+   margin: 0;
+ 
+   box-sizing: border-box;
+ 
+}
+
+/*  photo and size which is main big photo */
+
+.banner{
+
+    width: 100%;
+    height: 90vh; /* covering all page */
+  
+    background-image: url(pexels-pixabay-38238.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Cover the entire background */
+    display: flex; /*very good for dispaly ecran */
+    flex-direction: column; 
+
+   
+
+} 
+/*make header */
+
+.head{
+    
+    width: 100%;
+    height: 70px    ;
+   /** background-color: red;*/
+    padding-top:0;  /* padding we using for logo photo*/
+    padding-bottom: 0;
+    padding-left: 15%;
+    padding-right: 10%;
+    /* display and justify space using for nav link*/
+   display: flex;
+    justify-content:space-between;
+       margin-top: 50px;
+    
+   
+}
+
+
+   /* this is logo MBtravel inside of header*/
+
+.MbTravel-photo img {
+    width: 70px; /* Adjust the width as needed */
+    height: 70px; /* Maintain aspect ratio */
+  cursor: pointer;
+   /** background-color: yellow;*/
+    
+}
+
+
+
+/* nav link class*/
+   
+
+.nav{
+    width: 50%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    padding-right: 10%;
+  /**  background-color: rgb(1, 1, 19);*/
+    text-decoration: none;
+    
+    
+}
+html{
+    scroll-behavior: smooth;  /* asak suysurende yuwaslyk bilen owadan edip suysiryer*/
+}
+.nav-links{
+    list-style-type:none; /* removes or add or changing the bullet points or numbering from list items. */
+    width: 120%;
+    height: 70px;
+    font-size: smaller;
+   
+    display: flex;  /* bir liniyada goyyar */
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Briem+Hand';
+    color: #0a0a0a;
+   gap: 10px;
+    
+ 
+}
+/* explore lets find your travl button section*/
+.home-Button{
+    width: 100%;
+   
+   /** background-color:white;*/
+    padding: 10px 10%;
+    margin-top: 50PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px; /*arasyny acyar*/
+
+    
+}
+.welcome-text{
+   
+    width: max-content; /*max content bacground textin gutaryan yerine cenli etyar liniyani*/
+    padding: 10px;
+   background-color: #5a5a5a;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  color: #ffffff;
+}
+.explore{
+   /** background-color: burlywood;*/
+    font-size: 2rem;
+margin-top: 5px;
+color: #ffffff;
+}
+
+
+/*    .button{
+        margin-top: 10px;
+        width: max-content;
+        font-size: 1rem;
+        padding:5px 5px;
+        background-color: #0a0a0a;
+        color: white;
+        cursor: pointer;
+        border: solid 1px ;
+        border-radius: 5px;
+
+    
+    }
+*/
+
+ /* booking input section*/
+.booking{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+   /* background-color:rgb(39, 19, 19) ;*/
+    color: #0a0a0a;
+    border-radius: 10px;
+  width: 100%;
+    margin: auto; 
+ /*font: var(--FS);  variable
+   */ 
+   
+}
+
+.btninput {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    
+    align-items: center;
+    margin: 10px;   
+    width: calc(100% - 20px);
+    max-width: 220px;
+   row-gap: 7px;
+
+}
+
+.double-bed {
+    position: absolute;
+    left: 10px;
+    top: 64%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+.clock{
+    position: absolute;
+    left: 10px;
+    top: 64%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+
+}
+
+
+
+.family {
+    position: absolute;
+    left: 10px;
+    top: 64%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Adjust padding to make space for the icon */
+    height: 40px;
+   
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.search-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 9%;
+    margin-top: 25px;
+    height: 40px ;
+}
+
+.search-button:hover {
+    background-color: #3e8e41;
+}
+
+
+
+
+
+li a{
+    text-decoration: none;
+    color: #0a0a0a;
+  
+  
+}
+
+
+
+
+
+
+/*nav links style */
+
+
+.nav-links :visited {      /* visited is select visited link*/
+    color: #0a0a0a;
+
+}
+/* active selector to style links when you clikc of them*/
+.nav-links :hover{  /* hover selector to style when mouse over them*/
+    color: white;   
+    background-color: #0a0a0a;
+    transition: 2s;  /*2 secunda yuzine cykaryar */
+  filter: brightness(150%); /*STRELKANY ELTENDE HAS YAGTY EDIP GORKEZYA*/
+ filter: hue-rotate(180deg);/*showes 180 degrees other color*/
+}
+.nav-links :active{
+color: rgb(99, 221, 255);
+ }
+.nav-links :focus{
+    background-color: black;
+    color: red;
+    filter: brightness(150%); /*STRELKANY ELTENDE HAS YAGTY EDIP GORKEZYA*/
+ }
+/*h1 animation*/
+.find{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.finde{
+    margin-top: 40px;
+}
+ h1 {
+     
+    font-size: 2.5em;
+   color: #0a0a0a;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+ h1 em {
+    font-style: normal;
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    position: relative;
+    
+}
+
+ h1 em::before,
+ h1 em::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    transition: transform 0.3s ease-out;
+}
+
+ h1 em::before {
+    left: 0;
+    bottom: 0;
+    transform: translateX(-100%);
+}
+
+ h1 em::after {
+    right: 0;
+    bottom: 0;
+    transform: translateX(100%);
+}
+
+ h1:hover em::before,
+ h1:hover em::after {
+    transform: translateX(0);
+}
+
+
+/* rooms section */
+.rooms {
+   /* background-color: #0a0a0a;*/
+    width: 100%;
+    margin-top: 40px;
+    color: white;
+    padding: 20px 0px;
+    margin-top: -10px;
+}
+
+.centerrooms, .Centerrooms {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.Centerrooms {
+    font-size: 25px;
+}
+
+.centerrooms {
+    font-size: 10px;
+}
+
+.roomsbox {
+    /*background-color: burlywood;*/
+    background-color: rgba(241, 229, 229, 0.697);
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.room {
+    background-color: white;
+    width: calc(20% - 20px); /* 20% width for 5 rooms per row, minus gap */
+    min-width: 200px; /* Minimum width to ensure readability */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.room-img {
+    height: 150px; /* Adjust this value as needed */
+    width: 100%;
+    overflow: hidden;
+}
+
+.roomimages {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+
+.details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    color: black;
+}
+
+.details h2 {
+    margin: 0;
+    font-size: 1em;
+}
+
+.details p {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.choose {
+    background-color: #0a0a0a;
+    color: #fff;
+    font-size: 0.9em;
+    margin: 10px auto;
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+}
+/* animation rooms*/
+.room {
+    background-color: white;
+    width: calc(20% - 20px);
+    min-width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    position: relative;
+    top: 0;
+}
+
+.room:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.room:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.room::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 70%);
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.room:active::after {
+    opacity: 1;
+}
+
+.room-img {
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.roomimages {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+
+.room:hover .roomimages {
+    transform: scale(1.05);
+}
+
+.choose {
+    background-color: #0a0a0a;
+    color: #fff;
+    font-size: 0.9em;
+    margin: 10px auto;
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.choose:hover {
+    background-color: #333;
+}
+
+.choose:active {
+    transform: scale(0.95);
+}
+
+
+/*cost section*/
+.costs{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 2rem;
+    margin-bottom: 40px;
+
+
+
+}
+
+.center{
+    color: #ddd;
+}
+
+.cost-headear {
+    
+    margin: 1rem;
+    text-align: center;
+}
+.cardbox:hover.cost-headear>h2{
+    transform: scale(1.1);
+    color:blue;
+    letter-spacing: 2px;
+}
+.imagec{
+    width: 280px;
+    height: 200px;
+}
+.cardbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 85vh;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 5px 14px rgba(0,0,0, 0.25), 0 5px 5px rgba(0,0,0,0.22);
+    padding: 2rem;
+    margin: 1rem;
+    transition: all 0.2s ease-in;
+   
+}
+.cardbox:hover{
+    transform: scale(1.1);
+}
+.cost-detail{
+   width: 100%;
+}
+.cost-detail p{
+    padding: 0.6rem 1.5rem;
+    font-size: 0.8rem;
+    border-bottom: 1px solid;
+    
+}
+.cost-detail > p:hover{
+    background-color: #5a5a5a;
+}
+.check {
+    color: blue;
+
+}
+.nocheck{
+    color: red;
+}
+.price{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.price >p{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.price > p >sub,
+.price > p >sup{
+font-size: 1rem;
+}
+.card-button{
+   padding: 0.7rem 2rem;
+   border: 2px solid blue;
+   background-color: blue;
+   color: white;
+   cursor: pointer;
+   transition: all 50ms ease-in;
+   border-radius: 30px;
+  letter-spacing: 2px;
+align-items: center;
+
+}
+.card-button:hover{
+    transform: scale(1.1);
+    background-color: #f2f2f2;
+    font-weight: 500;
+    color: black;
+}
+
+
+/*subscribe section*/
+
+
+.subscribe{
+    width: 100%;
+    height: 30vh;
+    /*background-color: #0a0a0a;*/
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    background-color: #e7dfdf;
+  
+}
+.subscribeb{
+    padding: 20px;
+
+    /*background-color: aqua;*/
+margin: auto;
+ }
+
+.subscribeb p{
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    letter-spacing: 3px ;
+}
+
+
+.subs{
+    padding: 20px;
+ 
+    margin: auto;
+    /*background-color: #3e8e41;*/
+}
+.subs p
+{
+padding: 20px;
+box-sizing: solid 2px;
+color: black;
+letter-spacing: 2px ;
+}
+.btne{
+    background-color: #0a0a0a;
+    color: #fff;
+    padding: 10px;
+}
+
+/* program section*/
+.worktime {
+    padding: 20px;
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.table caption {
+    margin-bottom: 15px;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table thead th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #f5f5f5;
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+.table tbody td:hover {
+    background-color: #e6e6e6;
+}
+
+/* Animation for rows */
+.table tbody tr {
+    animation: slideIn 0.5s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+/* Staggered animation for rows */
+.table tbody tr:nth-child(1) { animation-delay: 0.1s; }
+.table tbody tr:nth-child(2) { animation-delay: 0.2s; }
+.table tbody tr:nth-child(3) { animation-delay: 0.3s; }
+
+
+ /* why with us about section*/
+ .About{
+    display: flex;
+    justify-content: center;
+    
+    
+    }
+
+
+
+
+/* Style for the figure elements */
+figure {
+    display: inline-block;
+    margin: 1px;
+    padding: 5px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+figure:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Style for the images */
+.Trip img {
+    border: 1px solid;
+    width: 320px;
+    height: 300px;
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.Trip img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+/* Style for the figcaptions */
+figcaption {
+    margin-top: 10px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+figure:hover figcaption {
+    opacity: 1;
+    transform: translateY(-3px);
+}
+
+/* Optional: Add a staggered animation effect for multiple figures */
+.Trip figure:nth-child(1) { animation-delay: 0.1s; }
+.Trip figure:nth-child(2) { animation-delay: 0.2s; }
+.Trip figure:nth-child(3) { animation-delay: 0.3s; }
+.Trip figure:nth-child(4) { animation-delay: 0.4s; }
+/* Add more if you have more figures */
+
+/*
+
+a{
+    
+        padding: 5px; /* Adjust the padding to add space */
+       /*  border: 1px solid black; Add a border with 1px width and black color 
+        display: inline-block; /* Make links behave as blocks to apply padding and border 
+        text-decoration: none; /* Remove default underline 
+        margin-right: 40px;
+        font-size: 17px;
+        
+}
+
+ */
+
+
+ .partnership {
+    height: 240px;
+    width: 100%;
+    border: 2px dashed #ddd;
+    background-color: #0a0a0a;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+.partners-container {
+    display: flex;
+    position: absolute;
+    animation: scroll 30s linear infinite;
+}
+.partners {
+    flex: 0 0 auto;
+    height: 240px;
+    margin: 0 20px;
+}
+.partners img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+.ourpartners h1 {
+    font-size: 2.5em;
+   color: #0a0a0a;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.ourpartners h1 em {
+    font-style: normal;
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.ourpartners h1 em::before,
+.ourpartners h1 em::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    transition: transform 0.3s ease-out;
+}
+
+.ourpartners h1 em::before {
+    left: 0;
+    bottom: 0;
+    transform: translateX(-100%);
+}
+
+.ourpartners h1 em::after {
+    right: 0;
+    bottom: 0;
+    transform: translateX(100%);
+}
+
+.ourpartners h1:hover em::before,
+.ourpartners h1:hover em::after {
+    transform: translateX(0);
+}
+/* lets chat section*/ 
+.box{
+   
+    line-height: 1.5;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: black;
+    color: aliceblue;
+  column-rule: 3px solid white;
+  border-radius: 60px;
+  background: #0a0a0a;
+  box-shadow:  15px 15px 9px #5a5a5a,
+             -20px -20px 11px #ffffff; 
+                
+   
+}
+/*lets chat interview form*/
+
+.letschat{
+    font-size:x-large ;
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    /*background-color: #0a0a0a;*/
+}
+.chat{
+   /* background-color: blue;*/
+    flex: 1;
+    margin: auto;
+    padding: 20px;
+    padding-left: 20%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    /*overflow :auto 
+    or display:flow-root  - correct code . contain full element . gapdalyna goyyar ullakan etyar  */
+
+}
+
+form{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(mbinterview.jpeg);
+    background-position: center;
+    background-size: cover;
+    font-size: smaller;
+    color: white;
+
+}
+ /* footer */
+ .footer{
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+margin-bottom: 20px;
+
+  
+}
+
+.footerfor{
+   margin-left: 15%;
+   display: inline-block; /*den linia etyer gapdalyna geciryar */
+   vertical-align: top; /* Align both footers to the top */
+   font-weight: 900; /* make  a bold letter */
+}
+    .footerforr{
+        margin-left: 10%;
+        display: inline-block;
+   font-weight: 900;
+        vertical-align: top; /* Align both footers to the top */
+     
+ }  
+ 
+ 
+ /*media query*/
+
+ /* For Phones */
+/* For Phones */
+@media only screen and (max-height: 425px) and (min-aspect-ratio:7/4) {
+    .banner {
+        height: 40vh; /* Reduced banner height for better content visibility */
+        background-size: cover; /* Ensure the banner image scales well */
+        background-position: center;
+    }
+
+    .head {
+        padding-left: 5%;
+        padding-right: 5%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between; /* Add spacing between logo and nav */
+        text-align: center; /* Center align the text */
+    }
+
+    .nav {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px; /* Increase gap for better spacing */
+    }
+
+    .booking {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btninput {
+        width: 100%;
+        max-width: none;
+    }
+
+    .search-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .room {
+        width: 100%;
+    }
+
+    .costs {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .cardbox {
+        width: 100%;
+        height: auto;
+        margin: 1rem 0;
+    }
+
+    .subscribe {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .About {
+        flex-direction: column;
+    }
+
+    .Trip img {
+        width: 100%;
+        height: auto;
+    }
+
+    .letschat {
+        flex-direction: column;
+    }
+
+    .chat {
+        padding-left: 5%;
+    }
+
+    .footer {
+        font-size: 16px;
+    }
+
+    .footerfor, .footerforr {
+        margin-left: 5%;
+        display: block;
+    }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .banner {
+        height: 60vh; /* Adjusted banner height for tablets */
+        background-size: cover;
+        background-position: center;
+    }
+
+    .head {
+        padding-left: 8%;
+        padding-right: 8%;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav {
+        width: 70%; /* Adjusted width for tablets */
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        font-size: 1.1em;
+    }
+
+    .booking {
+        flex-wrap: wrap;
+    }
+
+    .btninput {
+        width: calc(50% - 20px); /* Adjust input widths */
+    }
+
+    .search-button {
+        width: 30%; /* Adjusted button width */
+    }
+
+    .room {
+        width: calc(33.33% - 20px); /* Three rooms per row */
+    }
+
+    .costs {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .cardbox {
+        width: calc(50% - 2rem); /* Adjusted card size */
+        margin: 1rem;
+    }
+
+    .Trip img {
+        width: 280px;
+        height: 260px;
+    }
+}
+
+
+/*
+ul li:nth-child(2) dine ikinji setirdakini uytgetyar  {odd}number {even} number
+  list-style-image :url(); surate goyyar 
+    list-style-type:square;   4 burc etyar
+    list-style-position: inside;    icine cekyar yagny yakyn goyyar*/
+
+
+
+
+    /*:root{        variable to create my own and put with var and i can use it everywhere
+    --FS: 1,5rem;
+    --Paddign : 3 rem;
+    --Shadows 0 6px 5px -5px
+    --Borders 2px sollid
+
+    general
+    ssqueare 
+    font 
+    and all

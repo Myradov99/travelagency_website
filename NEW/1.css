@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('travelp.jpeg'), url('travelo.jpeg');
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Sign-up {
+    width: 300px;
+    background-color: rgba(55, 28, 28, 0.8);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.Sign-up h1 {
+    color: #4ecdc4;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.inputbox {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #4ecdc4;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.inputbox:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px #4ecdc4;
+}
+
+.Join {
+    background-color: #4ecdc4;
+    color: white;
+    width: 70%;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.Join:hover {
+    background-color: #45b7a0;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(78, 205, 196, 0.4);
+}
+
+.platform {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.platform img {
+    width: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.platform img:hover {
+    transform: scale(1.1);
+}
+
+#account {
+    color: white;
+    margin-top: 20px;
+}
+
+#account a {
+    color: #4ecdc4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#account a:hover {
+    color: #45b7a0;
+}
+
+label {
+    color: #4ecdc4;
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.check {
+    color: #4ecdc4;
+    margin: 15px 0;
+}
+
+.checkbox {
+    margin-right: 5px;
+}
+.Signupicon{
+   height: 100px;
+
+}
+form{
+    background: transparent;
+}

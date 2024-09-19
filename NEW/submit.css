@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+ }
+
+.thanks{
+    margin: auto;
+
+    height: 500px;
+    width: 80%;
+    margin-top: 05%;
+
+}
+.fa-regular{
+    margin-left: 40%;
+    font-size: 100px;
+    padding: 25px;
+    margin-top: 30px;
+    background: linear-gradient(to right, blue, red); /* Same gradient as button */
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    -webkit-text-fill-color: transparent; /* Make the text transparent to show the gradient */
+    background-clip: text; /* Standard property */
+    color: transparent; /* Ensure the text is transparent across all browsers */
+
+}
+.fa-regular:hover{
+    transform: scale(1.1);
+    transition: background-color 0.3s ease;
+}
+
+
+h1{
+    width: 40%;
+    letter-spacing: 5px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+.first{
+    width: 40%;
+    letter-spacing: 5px;
+    margin-left: 35%;
+}
+button {
+    letter-spacing: 5px;
+    margin-left: 42%;
+    margin-top: 40px;
+    height: 2rem;
+    width: 100px;
+    border-radius: 30px;
+    background: linear-gradient(to right, blue, red); /* Two-color gradient */
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background: linear-gradient(to right, red, blue); 
+    transform: scale(1.1);
+}

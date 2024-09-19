@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="icons8-earth-30.png" >
+  <link rel=earth href="thi.jpeg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1.css">
+    <title>Join us</title>
+
+</head>
+
+<body>
+  <form  id="signup" class="Sign-up" method="post" enctype="multipart/form-data">
+      <img class="Signupicon" src="Signupicon.jpeg" alt="Sign-up icon">
+      <h1>Join us</h1>
+      <div>
+          <label for="username">Username</label>
+          <input class="inputbox" type="text" id="username" placeholder="YlhamMyradov" minlength="8" required>
+          
+          <label for="password">Password</label>
+          <input class="inputbox" type="password" placeholder="••••••••••" minlength="10" required autocomplete="on">
+          
+          <label for="email">Email</label>
+          <input class="inputbox" type="email" placeholder="myradovic99@gmail.com" maxlength="20" required>
+          
+          <label for="phone">Phone +</label>
+          <input class="inputbox" type="tel" id="phone" placeholder="123-531-6882" pattern="[0-9]{3}[0-9]{3}-[0-9]{4}">
+          
+          <label for="bday">Birthday</label>
+          <input class="inputbox" type="date" id="bday">
+      </div>
+      <p class="check">
+          <input class="checkbox" type="checkbox" required> I agree to the terms of service
+      </p>
+     <a href="Untitled-1.html" class="Join"><button type="submit" >Sign-up</button></a>
+      <p class="or">OR</p>
+      <div class="platform">
+          <img src="apple.png" alt="apple">
+          <img src="facebook.png" alt="google">
+          <img src="google (2).png" alt="facebook">
+      </div>
+      <p id="account">Already have an account? <a href="#">Sign in</a></p>
+  </form>
+  <script>
+    document.getElementById('signup').addEventListener('submit', function(event) {
+        event.preventDefault();
+        // Here you would typically send the form data to your server
+        // For this example, we'll just simulate a successful signup
+        window.location.href = 'Untitled-1.html';
+    });
+</script>
+
+</body>
+</html>

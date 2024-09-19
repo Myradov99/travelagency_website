@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you</title>
+    <link rel="stylesheet" href="submit.css">
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> 
+
+</head>
+<body>
+    
+    <div id="thanks" class="thanks">
+<p class="Message"><i class="fa-regular fa-envelope"></i></p>
+        <h1>Thanks for submitting!</h1>
+        <p class="first"> your Message has been sent!</p>
+    
+       <a href="Untitled-1.html"> <button> Go home </button></a>
+    </div>
+    <script src="thanks.js"></script>
+    <script>
+      document.getElementById('thanks').addEventListener('submit', function(event) {
+          event.preventDefault();
+          // Here you would typically send the form data to your server
+          // For this example, we'll just simulate a successful signup
+          window.location.href = 'Untitled-1.html';
+      }); </script>
+</body>
+</html>
